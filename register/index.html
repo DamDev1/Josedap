@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Register</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+           <div class="logo">
+                <img src="../assest/logo.png" alt="">
+           </div>
+
+           <div class="nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="#news">Event</a></li>
+                    <li><a href="#teacher">Gallery</a></li>
+                    <li><a href="#offer">Resources</a></li>
+                    <div class="register">
+                        <a href="#contact">Register</a>
+                    </div>
+                </ul>
+           </div>
+
+           <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+           </div>
+        </div>
+   </section>
+
+
+   <div class="popUp">
+        <div class="container">
+            <div class="header">
+                <div class="subtitle">School Registration</div>
+
+                <span class="close">&times;</span>
+            </div>
+
+            <div class="note">
+                <h1>Josedap College</h1>
+
+                <div class="mainInfo">
+                    <h4>Additional documents for registration</h4>
+                    <p>Bring this registration form and the following documentation to the school office.</p>
+                    
+                    <ul>
+                        <li>Original Certified Birth Certificate</li>
+                        <li>Original Social Security Card</li>
+                        <li>Current Immunization Form</li>
+                        <li>Current Proofs of Residence (ex. power, water or gas bill)</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- <section class="register">
+        <div class="container">
+            <div class="subtitle">Become Member<br> of Josedap</div>
+
+           <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName"></label>First Name</td>
+                            <td>
+                                <input type="text" id="firstName" name="FirstName">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="secondName"></label>Second Name</td>
+                            <td>
+                                <input type="text" id="secondName" name="SecondName">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="otherName"></label>Other Name</td>
+                            <td>
+                                <input type="text" id="otherName" name="OtherName">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="date"></label>Date of Birth</td>
+                            <td>
+                                <input type="date" id="date" name="Date">
+                            </td>
+                        </tr>
+
+                        <!-- <tr>
+                            <td><label for="address"></label>Address</td>
+                            <td>
+                                <textarea id="address" name="Address" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr> -->
+<!-- 
+                        <tr>
+                            <td><label for="city">City</label></td>
+                            <td>
+                                <input type="text" id="city" name="City">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="state">State</label></td>
+                            <td>
+                                <input type="text" id="state" name="State">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="country">Country</label></td>
+                            <td>
+                                <input type="text" id="country" name="Country">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="mom">Mother's Name</label></td>
+                            <td>
+                                <input type="text" id="mom" name="Mothers Name">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="mom">Father's Name</label></td>
+                            <td>
+                                <input type="text" id="dad" name="Father Name">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="motherOc">Mother's Occupation</label></td>
+                            <td>
+                                <input type="text" id="motherOc" name="mother Occupation">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="fatherOc">Father's Occupation</label></td>
+                            <td>
+                                <input type="text" id="fatherOc" name="Father Occupation">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="phone">Mother Or Father Tel</label></td>
+                            <td>
+                                <input type="number" id="phone" name="Phone">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><button>Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+           </form>
+        </div>
+   </section> -->
+
+   <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
